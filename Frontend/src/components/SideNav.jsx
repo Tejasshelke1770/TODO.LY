@@ -9,7 +9,7 @@ import { IoArchiveOutline } from "react-icons/io5";
 
 const SideNav = () => {
   return (
-    <div className="w-[20%] h-screen bg-gray-50 overflow-x-hidden ">
+    <div className="w-[20%] h-screen bg-gray-50 overflow-x-hidden border-r-2 border-gray-200 shadow-md">
       <nav className="flex flex-col gap-2 py-3 px-2 mb-0">
         <Link
           to="/inbox"

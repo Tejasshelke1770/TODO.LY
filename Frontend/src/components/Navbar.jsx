@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="w-10 h-10 flex items-center justify-center text-3xl  ">
           <FcTodoList size={100} />
         </div>
-        <h1 className="text-3xl font-bold">TO-DO.LY</h1>
+        <h1 className="text-3xl font-bold select-none">TO-DO.LY</h1>
         <div className="nav-search-bar flex items-center py-1 px-4 bg-gray-100 rounded-full w-[20vw] ">
           <div>
             <IoIosSearch size={30} />
